@@ -1,0 +1,25 @@
+.onmobile {
+  nav {
+    .nav {
+      border-bottom: unset;
+      a {
+        width: 33.33%;
+        flex-grow: 1;
+        color: #fff;
+        font-weight: $bold;
+        font-style: italic;
+        background-color: rgba($primary, $alpha: 1);
+        border: unset;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        box-shadow: 0px 0px 0px 0px rgba(#000, $alpha: 0.3);
+        font-size: $font13;
+        &.active {
+          background-color: rgba($primary, $alpha: 0.5);
+          box-shadow: 5px 0px 5px 0px rgba(#000, $alpha: 0.3);
+          z-index: 9;
+        }
+      }
+    }
+  }
+}

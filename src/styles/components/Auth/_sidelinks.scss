@@ -1,0 +1,16 @@
+.sidelinks {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 9;
+  ul {
+    list-style: none;
+    margin: unset;
+    li {
+      padding: 15px;
+      a {
+        color: #fff;
+      }
+    }
+  }
+}

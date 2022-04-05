@@ -1,0 +1,29 @@
+.settings {
+  &__title {
+    color: $primary;
+  }
+  &__option {
+    ul {
+      li {
+        font-size: 20px;
+        font-weight: $bold;
+        &:nth-child(odd) {
+          background-color: #e0e0ec;
+        }
+        &:nth-child(even) {
+          background-color: #f5f5f5;
+        }
+        .custom-control-input:checked ~ .custom-control-label::before {
+          background-color: rgba($primary, $alpha: 0.1);
+          border-color: $primary;
+        }
+        .custom-control-label::before {
+          background-color: rgba($primary, $alpha: 0.1);
+        }
+        .custom-switch .custom-control-label::after {
+          background-color: $primary;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="6.0269mm" height="6.0269mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 16.49 16.49"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="671" font-variant="normal" style="fill-rule:nonzero" font-style="normal,italic" font-weight="400">
+	<font-face 
+		font-family="Gilroy-BlackItalic">
+		<font-face-src>
+			<font-face-name name="☞Gilroy-BlackItalic"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="?" horiz-adv-x="548" d="M178.989 254.994c4.00374,26.002 12.8342,49.6686 26.5136,70.9996 13.6572,21.331 29.1605,38.8362 46.4878,52.5157 17.3495,13.6572 34.3432,26.3134 51.0032,37.991 16.6822,11.6776 31.3404,24.0002 43.9966,36.9901 12.6785,13.0121 20.3523,26.5136 22.9992,40.5045 2.66916,14.6804 -0.155701,26.3357 -8.49682,35.0105 -8.31888,8.65252 -20.4858,12.9899 -36.5007,12.9899 -43.9966,0 -79.9858,-27.6703 -107.99,-82.9886l-144.001 90.996c27.3366,54.006 65.8392,94.9998 115.508,123.004 49.6463,28.0039 104.164,41.9948 163.486,41.9948 65.3276,0 117.843,-19.6628 157.503,-59.0106 39.6592,-39.3256 53.828,-89.9951 42.5063,-151.986 -4.67103,-28.0039 -14.6804,-53.4944 -30.0058,-76.4936 -15.3254,-22.9992 -32.0077,-41.839 -50.0022,-56.5194 -17.9946,-14.6581 -35.9891,-28.3153 -54.006,-40.9938 -17.9946,-12.6563 -33.6536,-25.1568 -46.9994,-37.5017 -13.3235,-12.3226 -20.9974,-24.8232 -22.9992,-37.5017l-169.002 0zm37.0123 -268.984c-28.6712,0 -51.3368,10.3207 -67.9968,30.9845 -16.6822,20.6637 -22.332,45.6648 -17.0159,75.0033 5.33832,28.6712 19.5071,52.8271 42.5063,72.5121 22.9992,19.6628 49.5129,29.4942 79.4964,29.4942 28.6712,0 51.5147,-10.4987 68.5084,-31.4961 16.9936,-20.9974 22.8435,-45.8428 17.5052,-74.514 -5.33832,-29.3163 -19.3292,-53.6501 -41.9948,-73.0015 -22.6878,-19.3292 -49.6686,-28.9826 -81.0089,-28.9826z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Gilroy-BlackItalic";font-variant:normal;font-style:normal,italic;font-weight:normal;src:url("#FontID0") format(svg)}
+    .fil1 {fill:#FEFEFE}
+    .fil0 {fill:#A06CD5}
+    .fnt0 {font-style:italic;font-weight:normal;font-size:12.3px;font-family:'Gilroy-BlackItalic'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle class="fil0" cx="8.24" cy="8.24" r="8.24"/>
+  <text x="4.33" y="12.56"  class="fil1 fnt0">?</text>
+ </g>
+</svg>

@@ -1,0 +1,123 @@
+.user {
+  &__details {
+    &-avatar {
+      height: 120px;
+      width: 120px;
+      overflow: hidden;
+      border-radius: 50%;
+      position: relative;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+      &--overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: rgba($primary, $alpha: 0.8);
+        width: 100%;
+        height: 25%;
+        cursor: pointer;
+        color: #fff;
+      }
+    }
+    &-other {
+      &--dn {
+        font-size: 50px;
+        font-weight: $bold;
+        color: $primary;
+        line-height: 30px;
+      }
+      &--username {
+        font-size: 20px;
+      }
+      &--points {
+        &-coin {
+          &--coins {
+            font-weight: $bold;
+            font-style: italic;
+            color: #f38231;
+          }
+        }
+        &-rate {
+          font-size: 10px;
+          font-style: italic;
+        }
+      }
+    }
+  }
+  &__bio {
+    font-size: $font13;
+    width: 70%;
+  }
+  &__info {
+    &-input {
+      border-radius: 5px;
+      border: 1px solid $primary;
+      position: relative;
+      height: 40px;
+      padding: 0 10px;
+      margin-bottom: 30px;
+      .country {
+        font-size: $font13;
+      }
+      label {
+        position: absolute;
+        top: 0;
+        transform: translateY(-50%);
+        padding: 0px 5px;
+        background-color: #f5f1fa;
+        font-size: $font13;
+      }
+      input {
+        background-color: transparent;
+        border: unset;
+        width: 100%;
+        font-size: 14px;
+        &:focus {
+          outline: none;
+        }
+      }
+      select {
+        background-color: transparent;
+        border: unset;
+        padding-right: 0;
+        width: 100%;
+        font-size: 14px;
+        &:focus {
+          outline: none;
+        }
+      }
+      &.txt {
+        height: 80px;
+      }
+      textarea {
+        resize: unset;
+        height: 100%;
+        width: 100%;
+        outline: unset;
+        border: unset;
+        background-color: transparent;
+        font-size: 14px;
+        padding-top: 10px;
+      }
+    }
+  }
+  button {
+    border: unset;
+    background-color: $primary;
+    padding: 5px 20px;
+    color: #fff;
+    font-weight: $bold;
+    border-radius: 50px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .user {
+    label {
+      background-color: #fff;
+    }
+  }
+}

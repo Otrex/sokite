@@ -1,0 +1,47 @@
+.notification {
+  width: 100%;
+  margin: unset;
+  position: relative;
+  &__views {
+    padding-left: 120px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    height: 90vh;
+    border-right: 5px solid #e0e0e0;
+    overflow: auto;
+    &-container {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  &__body {
+    padding-top: 20px;
+    padding-right: 0%;
+    padding-left: unset;
+    height: 90vh;
+    top: 0;
+    overflow: hidden;
+    background-color: rgba($primary, $alpha: 0.1);
+    .contain {
+      height: 100%;
+    }
+    &-container {
+      width: 95%;
+      height: 100%;
+      margin: 0 auto;
+      position: relative;
+    }
+  }
+}
+@media (max-width: 991.98px) {
+  .notification {
+    &__views {
+      padding: 30px 0px 70px 0px;
+      border: unset;
+      &-container {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+  }
+}

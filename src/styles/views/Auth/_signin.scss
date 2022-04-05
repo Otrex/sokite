@@ -1,0 +1,57 @@
+.signin {
+  width: 350px;
+  &__fb-btn {
+    height: 35px;
+    width: 250px;
+    border-radius: 7px;
+    background-color: #f5f5f5;
+    border: 1px solid $primary;
+    font-size: $font13;
+    font-weight: $bold;
+  }
+  &__line {
+    height: 1px;
+    background-color: $primary;
+    width: 155px;
+  }
+  &__form {
+    width: 100%;
+    .form-group {
+      text-align: initial;
+      input {
+        border: 1px solid $primary;
+        border-radius: 8px;
+      }
+    }
+    .btn {
+      background-color: $primary;
+      width: 100%;
+      border-radius: 8px;
+      font-weight: $bold;
+    }
+  }
+  &__fp {
+    font-size: 12px;
+    text-decoration: underline;
+    a {
+      color: red;
+    }
+  }
+
+  &__back {
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+    p {
+      color: #0a48c3;
+    }
+  }
+
+  &__no-account {
+    margin-top: auto;
+    transform: translateY(50%);
+    a {
+      color: #000;
+    }
+  }
+}

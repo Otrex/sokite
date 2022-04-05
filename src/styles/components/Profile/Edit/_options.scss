@@ -1,0 +1,12 @@
+.option {
+  background-color: $primary;
+  cursor: pointer;
+  height: 10px;
+  border-radius: 50px;
+  div.opt {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: $bold;
+  }
+}

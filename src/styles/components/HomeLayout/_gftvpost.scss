@@ -1,0 +1,212 @@
+.post {
+  &__head {
+    padding: 10px 0px;
+    &-details {
+      &--avatar {
+        img {
+          height: 30px;
+          width: 30px;
+          border-radius: 50px;
+          object-fit: cover;
+        }
+        div {
+          height: 30px;
+          width: 30px;
+          background-color: $primary;
+          border-radius: 50px;
+          font-weight: $bold;
+          color: #fff;
+        }
+      }
+      &--hd {
+        &-handle {
+          &--dn {
+            font-size: 15px;
+            font-weight: $bold;
+          }
+          &--username {
+            font-size: $font13;
+          }
+        }
+        &-desc {
+          font-size: $font13;
+        }
+      }
+    }
+  }
+  &__body {
+    height: 350px;
+    position: relative;
+    &-image {
+      border-radius: 15px;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+      }
+    }
+    &-bookmark {
+      right: 20px;
+      bottom: 20px;
+      opacity: 0.4;
+    }
+    &-action {
+      height: 200px;
+      width: 50px;
+      right: 0;
+      top: 30px;
+      transform: translateX(100%);
+      font-size: $font13;
+      &--like {
+        cursor: pointer;
+        position: relative;
+        &:hover {
+          color: red;
+          &::before {
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 0;
+            transform: translateX(12%) translateY(-20%);
+            height: 40px;
+            border-radius: 50%;
+            width: 40px;
+            background-color: rgba(red, $alpha: 0.1);
+          }
+        }
+      }
+      &--comment {
+        cursor: pointer;
+        position: relative;
+        &:hover {
+          color: $primary;
+          &::before {
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 0;
+            transform: translateX(12%) translateY(-20%);
+            height: 40px;
+            border-radius: 50%;
+            width: 40px;
+            background-color: rgba($primary, $alpha: 0.1);
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 991.98px) {
+  .post {
+    margin-bottom: 70px !important;
+    &__head {
+      &-details {
+        &--avatar {
+          img {
+            height: 50px;
+            width: 50px;
+          }
+          div {
+            height: 50px;
+            width: 50px;
+          }
+        }
+        &--hd {
+          &-handle {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            line-height: 15px;
+          }
+        }
+      }
+    }
+    &__body {
+      height: 550px;
+      position: relative;
+      &-overlay {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        border-radius: 5px;
+      }
+      &-image {
+        border-radius: 5px;
+      }
+      &-desc {
+        font-size: $font13;
+      }
+      &-bookmark {
+        right: 20px;
+        bottom: 20px;
+        z-index: 9;
+        opacity: 1;
+      }
+      &-action {
+        height: auto;
+        width: 80px;
+        right: 100px;
+        bottom: 20px;
+        top: unset;
+        transform: scale(0.8);
+        font-size: $font13;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        filter: brightness(10);
+        &--like {
+          display: flex;
+          align-items: center;
+          margin-bottom: unset !important;
+          margin: 0px 10px;
+          div {
+            margin: unset !important;
+          }
+          img {
+            margin: 0 10px !important;
+          }
+          cursor: pointer;
+          position: relative;
+          &:hover {
+            color: #fff;
+            img {
+              filter: unset;
+            }
+            &::before {
+              transform: translateX(1%) translateY(-23%);
+              height: 50px;
+              width: 50px;
+              background-color: rgba(red, $alpha: 0.3);
+            }
+          }
+        }
+        &--comment {
+          display: flex;
+          align-items: center;
+          margin: 0 10px;
+          div {
+            margin: unset !important;
+          }
+          img {
+            margin: 5px 10px 5px 10px;
+            transform: scale(1.4);
+          }
+          &:hover {
+            &::before {
+              transform: translateX(-12%) translateY(-20%);
+              background-color: rgba($primary, $alpha: 0.2);
+              height: 50px;
+              width: 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

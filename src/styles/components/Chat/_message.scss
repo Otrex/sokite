@@ -1,0 +1,18 @@
+.message {
+  width: 50%;
+  &__text {
+    padding: 12px 20px;
+    background-color: $primary;
+    text-align: left;
+    color: #fff;
+    border-radius: 15px;
+  }
+  &__details {
+    font-size: $font13;
+  }
+}
+@media (max-width: 991.98px) {
+  .message {
+    width: 55%;
+  }
+}

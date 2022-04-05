@@ -1,0 +1,48 @@
+.whotofollow {
+  p {
+    font-size: 14px;
+  }
+  .con {
+    overflow: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 100px);
+    grid-gap: 10px;
+    &::-webkit-scrollbar {
+      background-color: transparent;
+      width: 0px;
+    }
+  }
+  &__card {
+    height: 120px;
+    width: 100px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    &-more {
+      position: absolute;
+      right: 5px;
+      top: 10px;
+    }
+    &--title {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background-color: rgba(#000, $alpha: 0.4);
+      height: 35%;
+      color: #fff;
+      text-align: left;
+      width: 100%;
+      padding: 20px;
+      &-dn {
+        font-size: 20px;
+        font-weight: $bold;
+      }
+    }
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

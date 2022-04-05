@@ -1,0 +1,17 @@
+// Source Sans Import
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+// Gilroy Import
+@import url('https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css');
+
+// Santya Import
+@font-face {
+  font-family: $Santya;
+  src: url('/fonts/Santya/Santya.ttf');
+}
+
+* {
+  font-family: $Gilroy;
+}
+
+@import '../effects/effects';

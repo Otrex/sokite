@@ -1,0 +1,14 @@
+.auth {
+  height: 100vh;
+}
+
+@media (max-width: 991.98px) {
+  .auth {
+    &__views-con {
+      padding: unset;
+    }
+    &__views {
+      height: 70vh;
+    }
+  }
+}

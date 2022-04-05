@@ -1,0 +1,92 @@
+.chat {
+  width: 100%;
+  margin: unset;
+  position: relative;
+  &__views {
+    padding-left: 120px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    height: 90vh;
+    border-right: 5px solid #e0e0e0;
+    overflow: auto;
+    &-container {
+      width: 85%;
+      margin: 0 auto;
+      &--search {
+        width: 80%;
+      }
+      .active {
+        background-color: rgba($primary, $alpha: 0.3);
+      }
+    }
+  }
+  &__body {
+    padding-top: 20px;
+    padding-right: 1%;
+    height: 90vh;
+    top: 0;
+    overflow: hidden;
+    background-color: rgba($primary, $alpha: 0.3);
+    &-container {
+      width: 95%;
+      height: 100%;
+      margin: 0 auto;
+      position: relative;
+      .contain {
+        height: 100%;
+        overflow: auto;
+        padding-right: 10px;
+        padding-bottom: 150px;
+        &::-webkit-scrollbar {
+          background-color: transparent;
+          width: 2px;
+        }
+        // Custom Scroll
+        // &::-webkit-scrollbar-thumb {
+        //   background-color: $primary;
+        //   width: 3px;
+        // }
+      }
+      &--placeholder {
+        height: 80%;
+      }
+      &--compose {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        background-color: #e2d3f2;
+      }
+    }
+  }
+}
+@media (max-width: 991.98px) {
+  .chat {
+    &__views {
+      padding: 30px 0px 70px 0px;
+      border: unset;
+      &-container {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+    .inDm {
+      right: 0;
+    }
+    &__body {
+      position: fixed;
+      top: 60px;
+      bottom: 0;
+      right: -999px;
+      height: calc(100% - 120px);
+      background-color: #fff;
+      font-size: $font13;
+      &-container {
+        &--compose {
+          background-color: #fff;
+        }
+      }
+    }
+  }
+}

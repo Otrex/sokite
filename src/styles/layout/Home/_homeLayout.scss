@@ -1,0 +1,50 @@
+.homeLayout {
+  width: 100%;
+  margin: unset;
+  position: relative;
+  &__views {
+    padding-left: 120px;
+    padding-top: 50px;
+    background-color: $homeViewBG;
+    &-container {
+      width: 85%;
+      margin: 0 auto;
+    }
+  }
+  &__widgets {
+    padding-top: 0px;
+    padding-right: 5%;
+    padding-bottom: 50px;
+    &-container {
+      width: 100%;
+      top: 80px;
+      margin: 0 auto;
+      .contain {
+        min-height: 120vh;
+        overflow: auto;
+        padding-bottom: 30px;
+        padding: 0px 5% 100px 5%;
+        &::-webkit-scrollbar {
+          background-color: transparent;
+          width: 0px;
+        }
+        .spacer {
+          height: 100px;
+        }
+      }
+       //overflow: hidden;
+    }
+  }
+}
+@media (max-width: 991.98px) {
+  .homeLayout {
+    &__views {
+      padding: 0px 0px 70px 0px;
+      margin-top: 30px;
+      &-container {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
